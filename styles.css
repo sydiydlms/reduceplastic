@@ -8,16 +8,31 @@ h1 {
 
 h2 {
     font-style: italic;
+    text-decoration: underline;
 }
 
 .me {
-    width: 350px;
+    width: 400px;
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 50px;
 }
 
 nav a {
     text-decoration: none;
     color: #4e18e4;
     font-weight: bold;
+}
+
+.list-cause {
+    list-style-type: square;
+    font-style: italic;
+    margin-left: -20px;
+}
+
+.self-info {
+    list-style-type: none;
+    margin-left: -40px;
+    font-size: 20px;
 }
 
 .gallery {
@@ -34,4 +49,15 @@ nav a {
 .desc {
     padding: 15px;
     text-align: center;
+}
+
+#saveit {
+    background-color: #F7F7F7;
+    width: 250px;
+}
+
+.creator {
+    margin-left: -5px;
+    font-size: 15px;
+    color: #1e90ff;
 }

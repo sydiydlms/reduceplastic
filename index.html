@@ -1,11 +1,62 @@
-<html>
-    <body style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
-        <a href="aboutme.html">About me</a>
-        <h1 style="color: aqua;">Reduce plastic</h1>
-        <p style="font-style: italic;">We want to reduce plastic!</p>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Plastic</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Reduce plastic</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">HOME</a> |
+        <a href="aboutme.html">ABOUT ME</a> |
+        <a href="">FORM</a> |
+        <a href="">PETITION</a>
+    </nav>
+
+    <section>
+        <h2>We want to reduce plastic!</h2>
         <div id="saveit">
             <input id="savewhat" placeholder="What to save" type="text">
             <button onclick="document.getElementById('saveit').innerText='Save the '+document.getElementById('savewhat').value + '!'">Click me!</button>
         </div>
-    </body>
+    </section>
+
+    <section>
+        <h2>There is too much plastic pollution</h2>
+        <ul class="list-cause">
+            <li>Buy food which is not wrapped in plastic</li>
+            <li>Take reusable coffee mugs</li>
+            <li>Take a cotton bag instead of plastic bags</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Image gallery</h2>
+        <div class="gallery">
+            <img src="./img/bottle.jpg" alt="Reusable bottle">
+            <div class="desc">Reusable bottle instead of plastic bottle</div>
+        </div>
+
+        <div class="gallery">
+            <img src="./img/plastic1.jpg" alt="Plastic pollution">
+            <div class="desc">Plastic pollution</div>
+        </div>
+
+        <div class="gallery">
+            <img src="./img/plastic2.jpg" alt="Remove plastic waste">
+            <div class="desc">Removal of plastic waste</div>
+        </div>
+    </section>
+
+    <footer>
+        <p class="creator">Created by: Christine</p>
+    </footer>
+
+</body>
+
 </html>

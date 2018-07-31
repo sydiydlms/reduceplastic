@@ -2,59 +2,65 @@
 <html lang="en">
 
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Plastic</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="cause.js"></script>
 </head>
 
 <body>
     <header>
-        <h1>Reduce plastic</h1>
+        <a class="logo" href="#"></a>
+        <nav>
+            <a class="menu-icon" href="#"></a>
+            <ul class="nav-list">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="aboutme.html">ABOUT ME</a></li>
+                <li><a href="contact.html">FORM</a></li>
+                <li><a href="petition.html">PETITION</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <nav>
-        <a href="index.html">HOME</a> |
-        <a href="aboutme.html">ABOUT ME</a> |
-        <a href="">FORM</a> |
-        <a href="">PETITION</a>
-    </nav>
+    <h1>Reduce plastic</h1>
 
     <section>
-        <h2>We want to reduce plastic!</h2>
-        <div id="saveit">
-            <input id="savewhat" placeholder="What to save" type="text">
-            <button onclick="document.getElementById('saveit').innerText='Save the '+document.getElementById('savewhat').value + '!'">Click me!</button>
-        </div>
-    </section>
+        <article class="col col1">
+            <h2>We want to reduce plastic!</h2>
+            <div id="saveit">
+                <input id="savewhat" placeholder="What to save" type="text">
+                <button onclick="goodCause()">Click me!</button>
+            </div>
+            <h2>There is too much plastic pollution</h2>
+            <ul class="list-cause">
+                <li>Buy food which is not wrapped in plastic</li>
+                <li>Take reusable coffee mugs</li>
+                <li>Take a cotton bag instead of plastic bags</li>
+            </ul>
+        </article>
 
-    <section>
-        <h2>There is too much plastic pollution</h2>
-        <ul class="list-cause">
-            <li>Buy food which is not wrapped in plastic</li>
-            <li>Take reusable coffee mugs</li>
-            <li>Take a cotton bag instead of plastic bags</li>
-        </ul>
-    </section>
+        <article class="col col2">
+            <h2>Image gallery</h2>
+            <div class="gallery">
+                <img src="./img/bottle.jpg" alt="Reusable bottle">
+                <div class="desc">Reusable bottle instead of plastic bottle</div>
+            </div>
 
-    <section>
-        <h2>Image gallery</h2>
-        <div class="gallery">
-            <img src="./img/bottle.jpg" alt="Reusable bottle">
-            <div class="desc">Reusable bottle instead of plastic bottle</div>
-        </div>
+            <div class="gallery">
+                <img src="./img/plastic1.jpg" alt="Plastic pollution">
+                <div class="desc">Plastic pollution</div>
+            </div>
 
-        <div class="gallery">
-            <img src="./img/plastic1.jpg" alt="Plastic pollution">
-            <div class="desc">Plastic pollution</div>
-        </div>
-
-        <div class="gallery">
-            <img src="./img/plastic2.jpg" alt="Remove plastic waste">
-            <div class="desc">Removal of plastic waste</div>
-        </div>
+            <div class="gallery">
+                <img src="./img/plastic2.jpg" alt="Remove plastic waste">
+                <div class="desc">Removal of plastic waste</div>
+            </div>
+        </article>
     </section>
 
     <footer>
-        <p class="creator">Created by: Christine</p>
+        <p class="creator">&copy; 2018 | Created by: Christine</p>
     </footer>
 
 </body>

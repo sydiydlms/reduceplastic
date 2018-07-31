@@ -118,10 +118,14 @@ nav {
     font-size: 20px;
 }
 
+.gallery-title {
+    text-align: center;
+}
+
 .gallery {
     margin: 15px;
     border: 1px solid #ccc;
-    width: 400px;
+    display: block;
 }
 
 .gallery img {
@@ -137,7 +141,7 @@ nav {
 
 #saveit {
     background-color: #F7F7F7;
-    width: 250px;
+    display: block;
 }
 
 .creator {

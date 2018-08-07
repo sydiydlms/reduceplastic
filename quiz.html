@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Plastic</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="js/quiz.js"></script>
+</head>
+
+<body onload="renderQuestions()">
+    <header>
+        <a class="logo" href="#"></a>
+        <nav>
+            <a class="menu-icon" href="#"></a>
+            <ul class="nav-list">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="aboutme.html">ABOUT ME</a></li>
+                <li><a href="contact.html">FORM</a></li>
+                <li><a href="petition.html">PETITION</a></li>
+                <li><a href="quiz.html">QUIZ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>    
+        <h1>Quiz</h1>
+        <article class="col col1">
+            <div>Your score: <span id="points">0</span></div>
+            <h2>Is there too much plastic?</h2>
+            <div id="question1">
+                <button onclick="rightAnswer('question1')">Yes</button>
+                <button onclick="wrongAnswer('question1')">No</button>
+            </div>   
+
+            <h2>Who uses most of plastic?</h2>
+            <div id="question2">
+                <button onclick="wrongAnswer('question2')">Animals</button>
+                <button onclick="wrongAnswer('question2')">Plants</button>
+                <button onclick="rightAnswer('question2')">Humans</button>
+            </div>
+
+            <h2>How many tons of plastic are produced by a single person per year?</h2>
+            <div id="question3">
+                <button onclick="rightAnswer('question3')">1000</button>
+                <button onclick="wrongAnswer('question3')">10</button>
+                <button onclick="wrongAnswer('question3')">1</button>
+            </div>
+        </article>
+
+        <article class="col col2">
+            <div id = "questions"></div>
+        </article>
+    </section>
+
+    <footer>
+        <p class="creator">&copy; 2018 | Created by: Christine</p>
+    </footer>
+
+</body>
+
+</html>

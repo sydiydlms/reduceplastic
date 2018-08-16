@@ -2,7 +2,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     background-color: #f9f9f9;
-    color: #555;
+    color:#555;
 }
 
 /* Content styling */
@@ -158,11 +158,20 @@ footer {
     text-align: center;
     }
 
+#comment-list {
+    visibility: hidden;
+}
+
+#input-comment {
+    font-size: 19px;
+}
+
 .error {
     color: red;
 }
+
  
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 880px) {
     * {
         text-align: center;
     }
